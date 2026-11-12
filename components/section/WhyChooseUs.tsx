@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
             className="relative isolate overflow-hidden bg-white py-16 lg:py-20"
         >
             <MainContainer className="">
-            <div className="grid min-h-[650px] grid-cols-1 lg:grid-cols-[minmax(0,39fr)_minmax(0,61fr)]">
+            <div className="grid min-h-[650px] grid-cols-1  lg:grid-cols-[minmax(0,39fr)_minmax(0,61fr)]">
                 {/* LEFT IMAGE */}
                 <motion.div
                     variants={imageVariants}
@@ -108,7 +108,7 @@ export default function WhyChooseUs() {
 
                 {/* RIGHT CONTENT */}
                 <div
-                    className="flex flex-col justify-center min-w-0 m:py-20 lg:py-24 mt-8 sm:mt-0"
+                    className="flex flex-col justify-center min-w-0 m:py-20 lg:py-24 mt-8 lg::mt-0 lg:pl-20"
                 >
                     {/* EYEBROW */}
                     <SectionEyebrow className="" right={false}>
