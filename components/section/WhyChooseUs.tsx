@@ -24,6 +24,7 @@ import {
     whyChooseContent,
 } from "@/types/templates.types";
 import { SectionDescription, SectionEyebrow, SectionTitle } from "../ui/layout";
+import MainContainer from "../ui/MainContainer";
 
 const { whyChooseUs } = whyChooseContent;
 
@@ -86,6 +87,7 @@ export default function WhyChooseUs() {
             id={whyChooseUs.sectionId}
             className="relative isolate overflow-hidden bg-white py-16 lg:py-20"
         >
+            <MainContainer className="">
             <div className="grid min-h-[650px] grid-cols-1 lg:grid-cols-[minmax(0,39fr)_minmax(0,61fr)]">
                 {/* LEFT IMAGE */}
                 <motion.div
@@ -106,7 +108,7 @@ export default function WhyChooseUs() {
 
                 {/* RIGHT CONTENT */}
                 <div
-                    className="flex flex-col justify-center min-w-0 px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24 xl:px-12"
+                    className="flex flex-col justify-center min-w-0 m:py-20 lg:py-24 mt-8 sm:mt-0"
                 >
                     {/* EYEBROW */}
                     <SectionEyebrow className="" right={false}>
@@ -192,6 +194,7 @@ export default function WhyChooseUs() {
                     </motion.div>
                 </div>
             </div>
+            </MainContainer>
         </section>
     );
 }

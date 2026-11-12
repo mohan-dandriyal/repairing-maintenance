@@ -130,7 +130,7 @@ export default function AboutSection() {
                     <div
                         className="relative z-10 flex flex-col"
                     >
-                        <div className="mb-5">
+                        <div className="">
                             <SectionEyebrow className="" right={false} >
                                 {about.eyebrow}
                             </SectionEyebrow>
@@ -149,7 +149,7 @@ export default function AboutSection() {
 
 
                         <div>
-                            <SectionDescription className="mt-5">
+                            <SectionDescription className="">
                                 {about.description}
                             </SectionDescription>
                         </div>

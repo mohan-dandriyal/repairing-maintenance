@@ -13,6 +13,7 @@
       },
       "brand": {
         "name": "TORQIX",
+        "linkTo" : "#home",
         "logo": "/main logo/logo-light.png",
         "logoAlt": "TORQIX Auto Repair & Service Center",
         "description": "Reliable auto repair and maintenance services to keep your vehicle running smoothly and safely."

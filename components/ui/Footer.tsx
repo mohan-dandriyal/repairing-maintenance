@@ -198,7 +198,7 @@ export default function Footer() {
             variants={columnVariants}
             className="relative min-w-0 lg:border-r lg:border-white/30 lg:pr-6"
           >
-            <div className="relative max-w-full h-[70px] sm:h-[85px] w-[165px]  sm:w-[200px] 2xl:w-[240px]">
+            <a href="/" className="relative block max-w-full h-[70px] sm:h-[85px] w-[165px]  sm:w-[200px] 2xl:w-[240px]">
               <Image
                 src={brand.logo}
                 alt={brand.logoAlt}
@@ -206,7 +206,7 @@ export default function Footer() {
                 sizes="(max-width: 640px) 165px, (max-width: 1536px) 200px, 240px"
                 className="object-contain object-left"
               />
-            </div>
+            </a>
 
             <motion.p
               variants={rowVariants}
