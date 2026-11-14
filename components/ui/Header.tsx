@@ -305,7 +305,7 @@ export default function Header() {
                 duration: reduceMotion ? 0 : 0.35,
                 ease,
               }}
-              className="fixed left-0 top-0 z-[60] flex h-dvh w-[85%] max-w-[380px] flex-col overflow-y-auto bg-white px-6 pb-10 pt-3 shadow-2xl xl:hidden"
+              className="fixed left-0 top-0 z-[60] flex h-dvh w-[75%] max-w-[380px] flex-col overflow-y-auto bg-white sm:px-6 px-2 pb-10 pt-3 shadow-2xl xl:hidden"
             >
               {/* LOGO */}
               <div className="flex mb-10 shrink-0 items-center">
@@ -351,7 +351,7 @@ export default function Header() {
                       transition={{
                         delay: reduceMotion ? 0 : index * 0.045,
                       }}
-                      className={`group flex items-center justify-between border-b border-gray-100 px-3 py-4 text-[16px] font-semibold transition-all ${isActive
+                      className={`group flex items-center justify-between border-b border-gray-100 px-3 py-4 sm:text-[16px] text-sm font-semibold transition-all ${isActive
                         ? "border-l-[3px] border-l-[#B52B2B] bg-red-50 text-[#B52B2B]"
                         : "text-[#20252B] hover:text-[#B52B2B]"
                         }`}
@@ -373,15 +373,15 @@ export default function Header() {
                   href={phoneNumber}
                   className="flex items-center gap-3"
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#B52B2B] text-white">
-                    <Phone size={19} />
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#B52B2B] text-white">
+                    <Phone size={15} />
                   </span>
 
                   <span className="flex flex-col">
-                    <span className="text-xs text-gray-500">
+                    <span className="text-[10px] text-gray-500">
                       {helpline?.label}
                     </span>
-                    <span className="text-base font-bold text-[#20252B]">
+                    <span className="text-sm font-bold text-[#20252B]">
                       {phoneDisplay}
                     </span>
                   </span>

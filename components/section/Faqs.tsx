@@ -65,7 +65,7 @@ export default function FAQSection() {
             {/* TOP LEFT DECORATION */}
             <div
                 aria-hidden="true"
-                className="pointer-events-none absolute left-0 top-0 overflow-hidden sm:h-36 sm:w-36"
+                className="pointer-events-none sm:block hidden absolute left-0 top-0 overflow-hidden sm:h-36 sm:w-36"
             >
                 <div className="absolute -left-16 -top-20 h-40 w-28 rotate-[35deg] bg-[#E60012] sm:h-56" />
                 <div className="absolute left-24 -top-20 after:absolute after:bottom-0 after:-rotate-40 after after:h-8 overflow-hidden  after:w-12 after:-left-2  after:bg-white border-white  h-40 w-5 rotate-[35deg] bg-[#1C252C]" />
@@ -74,7 +74,7 @@ export default function FAQSection() {
             {/* BOTTOM RIGHT DECORATION */}
             <div
                 aria-hidden="true"
-                className="pointer-events-none absolute bottom-0 right-0 h-32 w-32 overflow-hidden sm:h-40 sm:w-40"
+                className="pointer-events-none sm:block hidden absolute bottom-0 right-0 h-32 w-32 overflow-hidden sm:h-40 sm:w-40"
             >
                 <div className="absolute -bottom-20 -right-14 h-48 w-24 rotate-[35deg] bg-[#E60012]" />
                 <div className="absolute overflow-hidden -bottom-18 right-19 h-36 w-5 rotate-[35deg] bg-[#1C252C] after:absolute after:w-full after:h-10 after:bg-white after:rotate-40 after:-top-3 after:-left-1" />

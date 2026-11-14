@@ -352,7 +352,7 @@ export default function HeroSection() {
                                 type="button"
                                 onClick={prevSlide}
                                 aria-label="Previous slide"
-                                className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-[#4A5054]/85 text-white transition-all duration-300 hover:bg-[#B52B2B] sm:h-14 sm:w-14"
+                                className="group cursor-pointer flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-[#4A5054]/85 text-white transition-all duration-300 hover:bg-[#B52B2B] sm:h-14 sm:w-14"
                             >
                                 <ArrowLeft
                                     size={25}
@@ -365,7 +365,7 @@ export default function HeroSection() {
                                 type="button"
                                 onClick={nextSlide}
                                 aria-label="Next slide"
-                                className="group flex h-10 w-10 items-center justify-center rounded-full bg-[#B52B2B] text-white transition-all duration-300 hover:bg-[#922020] sm:h-14 sm:w-14"
+                                className="group flex h-10 w-10 items-center justify-center cursor-pointer bg-[#4A5054]/85 rounded-full text-white transition-all duration-300 hover:bg-[#922020] sm:h-14 sm:w-14"
                             >
                                 <ArrowRight
                                     size={25}

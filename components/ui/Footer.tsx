@@ -308,10 +308,9 @@ export default function Footer() {
                       >
                         <Icon
                           size={20}
-                          //   strokeWidth={1}
+                          strokeWidth={2}
                           fill={
-                            item.icon === "phone" ||
-                              item.icon === "mail"
+                            item.icon === "phone"
                               ? "currentColor"
                               : "none"
                           }
