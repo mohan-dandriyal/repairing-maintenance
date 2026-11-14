@@ -216,14 +216,6 @@ export default function Header() {
                       }`}
                   >
                     {item.label}
-
-                    {hasDropdown && (
-                      <ChevronDown
-                        size={15}
-                        strokeWidth={2.5}
-                        className="transition-transform duration-300 group-hover:rotate-180"
-                      />
-                    )}
                   </span>
                 </a>
               );
@@ -233,7 +225,6 @@ export default function Header() {
           {/* RIGHT CONTACT */}
           <div className=" shrink-0 items-center gap-10 md:flex">
             <div className="hidden h-12 w-px bg-gray-300 2xl:block" />
-
             <a
               href={helpline.href}
               className="group hidden md:flex items-center gap-3"
