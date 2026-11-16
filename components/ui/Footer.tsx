@@ -276,60 +276,109 @@ export default function Footer() {
                   icons[item.icon] ?? Phone;
 
                 return (
-                  <motion.li
-                    key={index}
-                    variants={rowVariants}
-                  >
-                    <a
-                      href={item.href}
-                      target={
-                        item.href.startsWith("http")
-                          ? "_blank"
-                          : undefined
-                      }
-                      rel={
-                        item.href.startsWith("http")
-                          ? "noopener noreferrer"
-                          : undefined
-                      }
-                      className="group flex items-center gap-3 rounded-md"
+                  item?.href ?
+                    <motion.li
+                      key={index}
+                      variants={rowVariants}
                     >
-                      {/* ICON BOX */}
-                      <motion.span
-                        whileHover={
-                          reduceMotion
-                            ? undefined
-                            : {
-                              scale: 1.08,
-                              rotate: -4,
-                            }
+                      <a
+                        href={item.href}
+                        target={
+                          item.href.startsWith("http")
+                            ? "_blank"
+                            : undefined
                         }
-                        className="flex h-[45px] w-[45px] shrink-0 items-center justify-center rounded-[10px] bg-gradient-to-br from-[#F0000D] to-[#B50009] text-white shadow-[0_6px_18px_rgba(220,0,0,0.15)]"
+                        rel={
+                          item.href.startsWith("http")
+                            ? "noopener noreferrer"
+                            : undefined
+                        }
+                        className="group flex items-center gap-3 rounded-md"
                       >
-                        <Icon
-                          size={20}
-                          strokeWidth={2}
-                          fill={
-                            item.icon === "phone"
-                              ? "currentColor"
-                              : "none"
+                        {/* ICON BOX */}
+                        <motion.span
+                          whileHover={
+                            reduceMotion
+                              ? undefined
+                              : {
+                                scale: 1.08,
+                                rotate: -4,
+                              }
                           }
-                        />
-                      </motion.span>
+                          className="flex h-[45px] w-[45px] shrink-0 items-center justify-center rounded-[10px] bg-gradient-to-br from-[#F0000D] to-[#B50009] text-white shadow-[0_6px_18px_rgba(220,0,0,0.15)]"
+                        >
+                          <Icon
+                            size={20}
+                            strokeWidth={2}
+                            fill={
+                              item.icon === "phone"
+                                ? "currentColor"
+                                : "none"
+                            }
+                          />
+                        </motion.span>
 
-                      {/* CONTACT TEXT */}
-                      <span className="min-w-0  text-sm sm:text-base  leading-[1.6] text-white/90 transition-colors duration-300 group-hover:text-[#FF2633]">
-                        {item.lines.map((line, i) => (
-                          <span
-                            key={i}
-                            className="block break-words"
-                          >
-                            {line}
-                          </span>
-                        ))}
-                      </span>
-                    </a>
-                  </motion.li>
+                        {/* CONTACT TEXT */}
+                        <span className="min-w-0  text-sm sm:text-base  leading-[1.6] text-white/90 transition-colors duration-300 group-hover:text-[#FF2633]">
+                          {item.lines.map((line, i) => (
+                            <span
+                              key={i}
+                              className="block break-words"
+                            >
+                              {line}
+                            </span>
+                          ))}
+                        </span>
+                      </a>
+                    </motion.li> :
+                    <motion.li
+                      key={index}
+                      variants={rowVariants}
+                    >
+                      <p
+                        rel={
+                          item.href.startsWith("http")
+                            ? "noopener noreferrer"
+                            : undefined
+                        }
+                        className="group flex items-center gap-3 rounded-md"
+                      >
+                        {/* ICON BOX */}
+                        <motion.span
+                          whileHover={
+                            reduceMotion
+                              ? undefined
+                              : {
+                                scale: 1.08,
+                                rotate: -4,
+                              }
+                          }
+                          className="flex h-[45px] w-[45px] shrink-0 items-center justify-center rounded-[10px] bg-gradient-to-br from-[#F0000D] to-[#B50009] text-white shadow-[0_6px_18px_rgba(220,0,0,0.15)]"
+                        >
+                          <Icon
+                            size={20}
+                            strokeWidth={2}
+                            fill={
+                              item.icon === "phone"
+                                ? "currentColor"
+                                : "none"
+                            }
+                          />
+                        </motion.span>
+
+                        {/* CONTACT TEXT */}
+                        <span className="min-w-0  text-sm sm:text-base  leading-[1.6] text-white/90 transition-colors duration-300 group-hover:text-[#FF2633]">
+                          {item.lines.map((line, i) => (
+                            <span
+                              key={i}
+                              className="block break-words"
+                            >
+                              {line}
+                            </span>
+                          ))}
+                        </span>
+                      </p>
+                    </motion.li>
                 );
               })}
             </motion.ul>
