@@ -7,13 +7,12 @@
     "Footer": {
       "sectionId": "footer",
       "background": {
-        "image": "/assets/footer-bg.webp",
+        "image": "/other/footer-bg.webp",
         "position": "right center",
         "overlay": "rgba(12, 17, 20, 0.76)"
       },
       "brand": {
         "name": "TORQIX",
-        "linkTo" : "#home",
         "logo": "/main logo/logo-light.png",
         "logoAlt": "TORQIX Auto Repair & Service Center",
         "description": "Reliable auto repair and maintenance services to keep your vehicle running smoothly and safely."
@@ -63,8 +62,8 @@
           {
             "icon": "pin",
             "lines": [
-              "",
-              "Sector 62, Noida"
+              "3170 Rosewood Lane Unit 200, ",
+              "Beverly Hills, CA 90210,"
             ],
             "href": ""
           }
@@ -72,100 +71,7 @@
       },
       "copyright": {
         "copyYear": 2026,
-        "copyrightText": "TORQIX Auto Repair & Service Center. All Rights Reserved."
-      }
-    },
-    "Header": {
-      "logo": {
-        "src": "/main logo/logo.png",
-        "alt": "TORQIX Auto Repair & Service Center",
-        "width": 180,
-        "height": 54,
-        "ariaLabel": "Go to homepage"
-      },
-      "brand": {
-        "name": "TORQIX",
-        "tagline": "Auto Repair & Service Center"
-      },
-      "helpline": {
-        "label": "Call Us",
-        "number": "+1 00000 00000",
-        "href": "tel:+10000000000"
-      },
-      "announcement": {
-        "enabled": true,
-        "badge": "PROFESSIONAL AUTO CARE",
-        "text": "Book reliable auto repair and maintenance with TORQIX.",
-        "linkText": "Get Instant Quote",
-        "href": "#contact"
-      },
-      "navigation": {
-        "ariaLabel": "Main navigation",
-        "mobileDrawerTitle": "MENU DIRECTORY",
-        "navItems": [
-          {
-            "label": "Home",
-            "href": "#home"
-          },
-          {
-            "label": "About Us",
-            "href": "#about"
-          },
-          {
-            "label": "Services",
-            "href": "#services",
-            "innerlink": [
-              {
-                "label": "About Us",
-                "href": "#about"
-              }
-            ]
-          },
-          {
-            "label": "Why Choose Us",
-            "href": "#why-choose-us"
-          },
-          {
-            "label": "Testimonial",
-            "href": "#testimonials"
-          },
-          {
-            "label": "FAQs",
-            "href": "#faqs"
-          },
-          {
-            "label": "Contact Us",
-            "href": "#contact"
-          }
-        ]
-      },
-      "cta": {
-        "enabled": true,
-        "btnText": "+1 00000 00000",
-        "btnLink": "tel:+10000000000",
-        "icon": "arrow-up-right"
-      },
-      "mobile": {
-        "menuLabel": "Open navigation menu",
-        "closeLabel": "Close navigation menu",
-        "ctaText": "Contact Now"
-      },
-      "theme": {
-        "background": "rgba(255, 255, 255, 0.88)",
-        "surface": "#FFFFFF",
-        "text": "#0B1120",
-        "muted": "#475569",
-        "accent": "#EA580C",
-        "secondaryAccent": "#1E3A8A",
-        "border": "rgba(30, 58, 138, 0.09)",
-        "scrolledBackground": "rgba(255, 255, 255, 0.97)"
-      },
-      "settings": {
-        "sticky": true,
-        "showAnnouncement": true,
-        "scrollThreshold": 40,
-        "showActiveLink": true,
-        "smoothScroll": true
+        "copyrightText": "TORQIX Auto Repair & Service Center. All Rights Reserved. Powered by Lestow"
       }
     }
   },
@@ -282,7 +188,7 @@
               "slides": [
                 {
                   "id": 1,
-                  "image": "/assets/slide-1.webp",
+                  "image": "/other/slide-1.webp",
                   "imageAlt": "Professional mechanic repairing a car engine",
                   "eyebrow": "PROFESSIONAL AUTO CARE",
                   "title": "CAR REPAIR &",
@@ -295,7 +201,7 @@
                 },
                 {
                   "id": 2,
-                  "image": "/assets/slide-2.webp",
+                  "image": "/other/slide-2.webp",
                   "imageAlt": "Car technician performing vehicle maintenance",
                   "eyebrow": "TRUSTED AUTOMOTIVE EXPERTS",
                   "title": "EXPERT CAR",
@@ -308,7 +214,7 @@
                 },
                 {
                   "id": 3,
-                  "image": "/assets/slide-2.webp",
+                  "image": "/other/slide-2.webp",
                   "imageAlt": "Modern automotive workshop with car servicing",
                   "eyebrow": "QUALITY YOU CAN TRUST",
                   "title": "DRIVE WITH",
@@ -332,11 +238,11 @@
               "highlightHeading": "Car Care & Repair",
               "description": "At TORQIX, we are committed to delivering reliable, high-quality automobile repair and maintenance services. With a team of skilled technicians and modern equipment, we ensure your vehicle stays safe, efficient, and road-ready.",
               "image": {
-                "src": "/assets/about.webp",
+                "src": "/other/about.webp",
                 "alt": "Professional TORQIX mechanic inspecting and repairing a car engine"
               },
               "aboutBg": {
-                "src": "/assets/about-bg.png",
+                "src": "/other/about-bg.png",
                 "alt": ""
               },
               "features": [
@@ -358,7 +264,7 @@
               ],
               "decoration": {
                 "enabled": true,
-                "image": "/assets/about-bg.png"
+                "image": "/other/about-bg.png"
               }
             }
           }
@@ -372,7 +278,7 @@
               "highlightHeading": "Repair Services",
               "description": "From routine maintenance to complex repairs, we provide a full range of automotive services to keep your vehicle in top condition.",
               "serviceBg": {
-                "src": "/assets/service-bg.webp",
+                "src": "/other/service-bg.webp",
                 "alt": ""
               },
               "items": [
@@ -380,7 +286,7 @@
                   "id": 1,
                   "title": "Engine Repair Services",
                   "description": "Expert diagnostics and repair to keep your engine running at peak performance.",
-                  "image": "/assets/ser-1.webp",
+                  "image": "/other/ser-1.webp",
                   "imageAlt": "Professional mechanic repairing a car engine",
                   "icon": "engine",
                   "href": "#contact"
@@ -389,7 +295,7 @@
                   "id": 2,
                   "title": "Tire Change & Repair",
                   "description": "Professional tire replacement, repair, balancing, and alignment for a safer drive.",
-                  "image": "/assets/ser-2.webp",
+                  "image": "/other/ser-2.webp",
                   "imageAlt": "Mechanic changing and repairing a vehicle tire",
                   "icon": "tire",
                   "href": "#contact"
@@ -398,7 +304,7 @@
                   "id": 3,
                   "title": "Car Denting Repair",
                   "description": "High-quality denting and body repair to restore your car's original look.",
-                  "image": "/assets/ser-3.webp",
+                  "image": "/other/ser-3.webp",
                   "imageAlt": "Technician repairing and polishing a car body",
                   "icon": "hammer",
                   "href": "#contact"
@@ -407,7 +313,7 @@
                   "id": 4,
                   "title": "Brake Service",
                   "description": "Complete brake inspection, pad replacement, and system maintenance for your safety.",
-                  "image": "/assets/ser-4.webp",
+                  "image": "/other/ser-4.webp",
                   "imageAlt": "Mechanic servicing a car brake disc and caliper",
                   "icon": "disc",
                   "href": "#contact"
@@ -416,7 +322,7 @@
                   "id": 5,
                   "title": "Battery Service",
                   "description": "Battery testing, replacement, and electrical system checks to keep you on the move.",
-                  "image": "/assets/ser-5.webp",
+                  "image": "/other/ser-5.webp",
                   "imageAlt": "Technician inspecting an automotive battery",
                   "icon": "battery",
                   "href": "#contact"
@@ -425,7 +331,7 @@
                   "id": 6,
                   "title": "AC Service & Repair",
                   "description": "AC inspection, gas refilling, and repair to keep your cabin cool and comfortable.",
-                  "image": "/assets/ser-6.webp",
+                  "image": "/other/ser-6.webp",
                   "imageAlt": "Car air conditioning system with cool airflow",
                   "icon": "snowflake",
                   "href": "#contact"
@@ -443,7 +349,7 @@
               "highlightHeading": "Your Car Care",
               "description": "We combine skilled expertise, modern technology, and a customer-first approach to deliver reliable and high-quality automotive services.",
               "image": {
-                "src": "/assets/why-choose-us.webp",
+                "src": "/other/why-choose-us.webp",
                 "alt": "TORQIX mechanic professionally servicing a car engine"
               },
               "features": [
@@ -483,7 +389,7 @@
               "heading": "What Our",
               "highlightHeading": "Customers Say",
               "description": "Real experiences from car owners who trust TORQIX for reliable service and expert care.",
-              "backgroundImage": "/assets/testimonials-bg.webp",
+              "backgroundImage": "/other/testimonials-bg.webp",
               "settings": {
                 "autoplay": true,
                 "autoplayDelay": 5000,
@@ -498,7 +404,7 @@
                   "name": "Rohan Mehta",
                   "location": "Delhi",
                   "rating": 5,
-                  "image": "/assets/customer-1.webp",
+                  "image": "/other/customer-1.webp",
                   "review": "Excellent service and very professional team. My car was repaired on time and now runs perfectly. Highly recommended!"
                 },
                 {
@@ -506,7 +412,7 @@
                   "name": "Priya Sharma",
                   "location": "Noida",
                   "rating": 5,
-                  "image": "/assets/customer-2.webp",
+                  "image": "/other/customer-2.webp",
                   "review": "Great experience! The staff is knowledgeable, the service is quick, and the pricing is fair. TORQIX is now my go-to car service center."
                 },
                 {
@@ -514,7 +420,7 @@
                   "name": "Amit Verma",
                   "location": "Gurgaon",
                   "rating": 5,
-                  "image": "/assets/customer-3.webp",
+                  "image": "/other/customer-3.webp",
                   "review": "The quality of work is excellent. They explained the issue clearly and fixed it without any hassle. Truly a reliable auto service center."
                 },
                 {
@@ -522,7 +428,7 @@
                   "name": "Rahul Singh",
                   "location": "Noida",
                   "rating": 5,
-                  "image": "/assets/customer-1.webp",
+                  "image": "/other/customer-1.webp",
                   "review": "Very professional mechanics and excellent customer support. My vehicle was serviced quickly and the overall experience was fantastic."
                 },
                 {
@@ -530,7 +436,7 @@
                   "name": "Neha Gupta",
                   "location": "Delhi",
                   "rating": 5,
-                  "image": "/assets/customer-2.webp",
+                  "image": "/other/customer-2.webp",
                   "review": "The technicians were friendly and knowledgeable. They provided transparent pricing and completed the repair on schedule."
                 },
                 {
@@ -538,7 +444,7 @@
                   "name": "Vikram Yadav",
                   "location": "Gurgaon",
                   "rating": 5,
-                  "image": "/assets/customer-3.webp",
+                  "image": "/other/customer-3.webp",
                   "review": "Outstanding service quality and attention to detail. I would definitely recommend TORQIX for reliable car maintenance."
                 }
               ]
@@ -554,7 +460,7 @@
               "highlightHeading": "Questions",
               "description": "Find quick answers to the most common questions about our auto repair and service solutions.",
               "image": {
-                "src": "/assets/faq-mechanic.webp",
+                "src": "/other/faq-mechanic.webp",
                 "alt": "Professional TORQIX mechanic repairing a vehicle engine"
               },
               "items": [
@@ -660,80 +566,6 @@
                 "submitText": "Send Message",
                 "successMessage": "Your message has been sent successfully!",
                 "errorMessage": "Unable to send your message. Please try again."
-              }
-            }
-          }
-        },
-        "Footer": {
-          "variants": {
-            "TorqixFooter2": {
-              "sectionId": "footer",
-              "background": {
-                "image": "/assets/footer-bg.webp",
-                "position": "right center",
-                "overlay": "rgba(12, 17, 20, 0.76)"
-              },
-              "brand": {
-                "name": "TORQIX",
-                "logo": "/main logo/logo-light.png",
-                "logoAlt": "TORQIX Auto Repair & Service Center",
-                "description": "Reliable auto repair and maintenance services to keep your vehicle running smoothly and safely."
-              },
-              "quickLinks": {
-                "title": "Quick Links",
-                "items": [
-                  {
-                    "label": "Home",
-                    "href": "#home"
-                  },
-                  {
-                    "label": "About Us",
-                    "href": "#about"
-                  },
-                  {
-                    "label": "Our Services",
-                    "href": "#services"
-                  },
-                  {
-                    "label": "Testimonials",
-                    "href": "#testimonials"
-                  },
-                  {
-                    "label": "Contact Us",
-                    "href": "#contact"
-                  }
-                ]
-              },
-              "contact": {
-                "title": "Contact Info",
-                "items": [
-                  {
-                    "icon": "phone",
-                    "lines": [
-                      "+1 00000 00000"
-                    ],
-                    "href": "tel:+10000000000"
-                  },
-                  {
-                    "icon": "mail",
-                    "lines": [
-                      "info@xyz.com"
-                    ],
-                    "href": "mailto:info@xyz.com"
-                  },
-                  {
-                    "icon": "pin",
-                    "lines": [
-                      "3170 Rosewood Lane Unit 200, ",
-                      "Beverly Hills, CA 90210,"
-                    ],
-                    "href": ""
-                  }
-                ]
-              },
-              "copyright": {
-                "copyYear": 2026,
-                "copyrightText": "TORQIX Auto Repair & Service Center. All Rights Reserved. Powered by Lestow"
               }
             }
           }

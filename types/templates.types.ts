@@ -22,9 +22,9 @@ const { sections, templateComponents } = template;
 export const headerContent = {
     header: resolveVariant(sections.Header.variants, templateComponents.shared.Header),
 };
-export const footerContent = {
-    footer: resolveVariant(sections.Footer.variants, templateComponents.shared.Footer),
-};
+export const footerContent = data.common.Footer;
+export type footerDataType = typeof footerContent
+
 export const home = resolveVariant(sections.Hero.variants, pageVariant("HeroSection"));
 export const aboutContent = {
     about: resolveVariant(sections.AboutUs.variants, pageVariant("AboutUs")),

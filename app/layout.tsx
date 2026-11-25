@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: footerContent.footer.brand.logoAlt,
-  description: footerContent.footer.brand.description,
+  title: footerContent.brand.logoAlt,
+  description: footerContent.brand.description,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

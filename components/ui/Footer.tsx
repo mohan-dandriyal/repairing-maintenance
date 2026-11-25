@@ -34,7 +34,7 @@ const {
   quickLinks,
   contact,
   copyright,
-} = footerContent.footer;
+} = footerContent;
 
 const icons: Record<string, LucideIcon> = {
   phone: Phone,
