@@ -23,7 +23,6 @@ export const headerContent = {
     header: resolveVariant(sections.Header.variants, templateComponents.shared.Header),
 };
 export const footerContent = data.common.Footer;
-export type footerDataType = typeof footerContent
 
 export const home = resolveVariant(sections.Hero.variants, pageVariant("HeroSection"));
 export const aboutContent = {
@@ -47,7 +46,7 @@ export const contactContent = {
 
 export type TemplateData = typeof data;
 export type HeaderData = typeof headerContent.header;
-export type FooterData = typeof footerContent.footer;
+export type FooterData = typeof footerContent;
 export type HomeData = typeof home;
 export type AboutData = typeof aboutContent.about;
 export type ServicesData = typeof servicesContent.services;

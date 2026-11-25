@@ -197,91 +197,86 @@ export default function ContactSection() {
 
                                 return (
                                     item.href ?
-                                    <motion.a
-                                        key={item.id}
-                                        href={item.href}
-                                        variants={fadeUp}
-                                        whileHover={
-                                            reduceMotion
-                                                ? undefined
-                                                : { x: 6 }
-                                        }
-                                        target={
-                                            item.href.startsWith("http")
-                                                ? "_blank"
-                                                : undefined
-                                        }
-                                        rel={
-                                            item.href.startsWith("http")
-                                                ? "noopener noreferrer"
-                                                : undefined
-                                        }
-                                        className="group flex items-center gap-3 rounded-[18px] bg-gradient-to-r from-[#F8F8FA] to-[#F1F1F3] p-3 transition-shadow duration-300 hover:shadow-lg sm:gap-5"
-                                    >
-                                        {/* ICON */}
-                                        <div className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#F0000C] to-[#AF0009] text-white shadow-[0_8px_20px_rgba(220,0,0,0.12)] sm:h-[65px] sm:w-[65px]">
-                                            <Icon
-                                                size={30}
-                                                strokeWidth={1.7}
-                                            />
-                                        </div>
+                                        <motion.a
+                                            key={item.id}
+                                            href={item.href}
+                                            variants={fadeUp}
+                                            whileHover={
+                                                reduceMotion
+                                                    ? undefined
+                                                    : { x: 6 }
+                                            }
+                                            target={
+                                                item.href.startsWith("http")
+                                                    ? "_blank"
+                                                    : undefined
+                                            }
+                                            rel={
+                                                item.href.startsWith("http")
+                                                    ? "noopener noreferrer"
+                                                    : undefined
+                                            }
+                                            className="group flex items-center gap-3 rounded-[18px] bg-gradient-to-r from-[#F8F8FA] to-[#F1F1F3] p-3 transition-shadow duration-300 hover:shadow-lg sm:gap-5"
+                                        >
+                                            {/* ICON */}
+                                            <div className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#F0000C] to-[#AF0009] text-white shadow-[0_8px_20px_rgba(220,0,0,0.12)] sm:h-[65px] sm:w-[65px]">
+                                                <Icon
+                                                    size={30}
+                                                    strokeWidth={1.7}
+                                                />
+                                            </div>
 
-                                        {/* RED DIVIDER */}
-                                        <span className="h-14 w-[2px] shrink-0 bg-[#E21B23]/70" />
+                                            {/* RED DIVIDER */}
+                                            <span className="h-14 w-[2px] shrink-0 bg-[#E21B23]/70" />
 
-                                        {/* TEXT */}
-                                        <div className="min-w-0">
-                                            <h3 className="text-base font-poppins font-bold text-[#111A21] sm:text-[20px]">
-                                                {item.title}
-                                            </h3>
+                                            {/* TEXT */}
+                                            <div className="min-w-0">
+                                                <h3 className="text-base font-poppins font-bold text-[#111A21] sm:text-[20px]">
+                                                    {item.title}
+                                                </h3>
 
-                                            <p className="mt-1 break-words text-sm sm:text-base leading-[1.5] text-[#29323A] ">
-                                                {item.value}
-                                            </p>
-                                        </div>
-                                    </motion.a> :
-                                      <motion.div
-                                        key={item.id}
-                                        variants={fadeUp}
-                                        whileHover={
-                                            reduceMotion
-                                                ? undefined
-                                                : { x: 6 }
-                                        }
-                                        target={
-                                            item.href.startsWith("http")
-                                                ? "_blank"
-                                                : undefined
-                                        }
-                                        rel={
-                                            item.href.startsWith("http")
-                                                ? "noopener noreferrer"
-                                                : undefined
-                                        }
-                                        className="group flex items-center gap-3 rounded-[18px] bg-gradient-to-r from-[#F8F8FA] to-[#F1F1F3] p-3 transition-shadow duration-300 hover:shadow-lg sm:gap-5"
-                                    >
-                                        {/* ICON */}
-                                        <div className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#F0000C] to-[#AF0009] text-white shadow-[0_8px_20px_rgba(220,0,0,0.12)] sm:h-[65px] sm:w-[65px]">
-                                            <Icon
-                                                size={30}
-                                                strokeWidth={1.7}
-                                            />
-                                        </div>
+                                                <p className="mt-1 break-words text-sm sm:text-base leading-[1.5] text-[#29323A] ">
+                                                    {item.value}
+                                                </p>
+                                            </div>
+                                        </motion.a> :
+                                        <motion.div
+                                            key={item.id}
+                                            variants={fadeUp}
+                                            whileHover={
+                                                reduceMotion
+                                                    ? undefined
+                                                    : { x: 6 }
+                                            }
+                                            rel={
+                                                item.href.startsWith("http")
+                                                    ? "noopener noreferrer"
+                                                    : undefined
+                                            }
+                                            className="group flex items-center gap-3 rounded-[18px] bg-gradient-to-r from-[#F8F8FA] to-[#F1F1F3] p-3 transition-shadow duration-300 hover:shadow-lg sm:gap-5"
+                                        >
+                                            {/* ICON */}
+                                            <div className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#F0000C] to-[#AF0009] text-white shadow-[0_8px_20px_rgba(220,0,0,0.12)] sm:h-[65px] sm:w-[65px]">
+                                                <Icon
+                                                    size={30}
+                                                    strokeWidth={1.7}
+                                                />
+                                            </div>
 
-                                        {/* RED DIVIDER */}
-                                        <span className="h-14 w-[2px] shrink-0 bg-[#E21B23]/70" />
+                                            {/* RED DIVIDER */}
+                                            <span className="h-14 w-[2px] shrink-0 bg-[#E21B23]/70" />
 
-                                        {/* TEXT */}
-                                        <div className="min-w-0">
-                                            <h3 className="text-base font-poppins font-bold text-[#111A21] sm:text-[20px]">
-                                                {item.title}
-                                            </h3>
+                                            {/* TEXT */}
+                                            <div className="min-w-0">
+                                                <h3 className="text-base font-poppins font-bold text-[#111A21] sm:text-[20px]">
+                                                    {item.title}
+                                                </h3>
 
-                                            <p className="mt-1 break-words text-sm sm:text-base leading-[1.5] text-[#29323A] ">
-                                                {item.value}
-                                            </p>
-                                        </div>
-                                    </motion.div>
+                                                <p className="mt-1 break-words text-sm sm:text-base leading-[1.5] text-[#29323A] ">
+                                                    {item.value}
+                                                </p>
+                                            </div>
+                                        </motion.div>
                                 );
                             })}
                         </motion.div>
